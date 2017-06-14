@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<center>
+<h1>Click For Tabs</h1>
+</center>
+
+
+<div class="tab">
+ <center>
+  <button class="tablinks" onclick="tab(event, 'Tab1')">Tab1</button>
+  <button class="tablinks" onclick="tab(event, 'Tab2')">Tab2</button>
+ </center>
+  <!-- <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
+</div>
+
+<div id="Tab1" class="tabcontent">
+  <h3 onclick="show(event, 'Link1')">Link1</h3>
+</div>
+
+<div id="Tab2" class="tabcontent">
+  <h3 onclick="show(event, 'Link2')">Link2</h3>
+</div>
+
+<div id="content">
+  <h3>This is the content for link1</h3>
+</div>
+
+<div id="content2">
+  <h3>This is the content for link2</h3>
+</div>
+
+	<footer id="footer">This is the footer</footer>
+
+
+<script type="text/javascript" src="script.js"></script>
+     
+</body>
+</html>
